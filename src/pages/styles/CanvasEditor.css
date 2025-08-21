@@ -1,0 +1,166 @@
+.editor-container {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: linear-gradient(90deg, #eef2ff, #f5f3ff);
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.toolbar-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.toolbar button,
+.upload-btn {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: transform 0.1s ease, background 0.2s ease;
+}
+
+.toolbar button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.toolbar button:hover:not([disabled]),
+.upload-btn:hover {
+  background: #4338ca;
+  transform: translateY(-1px);
+}
+
+.upload-btn input {
+  display: none;
+}
+
+.prompt-input {
+  flex: 1;
+  min-width: 240px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 8px 10px;
+  outline: none;
+}
+
+.divider {
+  width: 1px;
+  height: 28px;
+  background: #e5e7eb;
+  margin: 0 6px;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  padding: 6px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.compact {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  padding: 6px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.props {
+  background: #fff;
+  border: 1px dashed #e5e7eb;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.props-title {
+  font-weight: 600;
+  margin-right: 8px;
+  color: #4f46e5;
+}
+
+.canvas-wrapper {
+  width: 100%;
+  overflow: auto;
+  border: 1px dashed #e5e7eb;
+  border-radius: 12px;
+  background: repeating-conic-gradient(
+      from 0deg,
+      #fafafa 0deg 90deg,
+      #f9fafb 90deg 180deg
+    );
+}
+
+.canvas-area {
+  margin: 16px auto;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+  border: 1px solid #e5e7eb;
+}
+
+.canvas-text::-webkit-scrollbar {
+  width: 8px;
+}
+.canvas-text::-webkit-scrollbar-thumb {
+  background: #e5e7eb;
+  border-radius: 8px;
+}
+
+.footer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #6b7280;
+}
+
+.layer-controls button {
+  background: #111827;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  margin-left: 6px;
+  font-size: 0.85rem;
+}
+
+.layer-controls button:hover {
+  background: #374151;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
